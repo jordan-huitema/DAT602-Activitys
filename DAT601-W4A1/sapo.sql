@@ -6,7 +6,6 @@ DROP DATABASE if exists sapodb ;
 CREATE DATABASE sapodb;
 USE sapodb; -- REPLACE sapodb WITH YOUR DATABASE NAME
 
-
 DROP USER if exists 'sapo'@'localhost';
 CREATE USER 'sapo'@'localhost' IDENTIFIED BY '53211';
 GRANT ALL ON sapodb.* TO 'sapo'@'localhost';

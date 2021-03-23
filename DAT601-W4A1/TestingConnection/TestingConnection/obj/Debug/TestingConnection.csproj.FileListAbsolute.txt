@@ -35,3 +35,16 @@ C:\Users\toddc\Downloads\TestConnection\TestingConnection\TestingConnection\obj\
 C:\Users\toddc\Downloads\TestConnection\TestingConnection\TestingConnection\obj\Debug\TestingConnection.csproj.CopyComplete
 C:\Users\toddc\Downloads\TestConnection\TestingConnection\TestingConnection\obj\Debug\TestingConnection.exe
 C:\Users\toddc\Downloads\TestConnection\TestingConnection\TestingConnection\obj\Debug\TestingConnection.pdb
+C:\Users\Jordan\Documents\Nmit\DAT602\Workspace\DAT602-Activitys\DAT601-W4A1\TestingConnection\TestingConnection\bin\Debug\TestingConnection.exe.config
+C:\Users\Jordan\Documents\Nmit\DAT602\Workspace\DAT602-Activitys\DAT601-W4A1\TestingConnection\TestingConnection\bin\Debug\TestingConnection.exe
+C:\Users\Jordan\Documents\Nmit\DAT602\Workspace\DAT602-Activitys\DAT601-W4A1\TestingConnection\TestingConnection\bin\Debug\TestingConnection.pdb
+C:\Users\Jordan\Documents\Nmit\DAT602\Workspace\DAT602-Activitys\DAT601-W4A1\TestingConnection\TestingConnection\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Jordan\Documents\Nmit\DAT602\Workspace\DAT602-Activitys\DAT601-W4A1\TestingConnection\TestingConnection\bin\Debug\Google.Protobuf.dll
+C:\Users\Jordan\Documents\Nmit\DAT602\Workspace\DAT602-Activitys\DAT601-W4A1\TestingConnection\TestingConnection\bin\Debug\MySql.Data.dll
+C:\Users\Jordan\Documents\Nmit\DAT602\Workspace\DAT602-Activitys\DAT601-W4A1\TestingConnection\TestingConnection\bin\Debug\Google.Protobuf.xml
+C:\Users\Jordan\Documents\Nmit\DAT602\Workspace\DAT602-Activitys\DAT601-W4A1\TestingConnection\TestingConnection\bin\Debug\MySql.Data.xml
+C:\Users\Jordan\Documents\Nmit\DAT602\Workspace\DAT602-Activitys\DAT601-W4A1\TestingConnection\TestingConnection\obj\Debug\TestingConnection.csprojAssemblyReference.cache
+C:\Users\Jordan\Documents\Nmit\DAT602\Workspace\DAT602-Activitys\DAT601-W4A1\TestingConnection\TestingConnection\obj\Debug\TestingConnection.csproj.CoreCompileInputs.cache
+C:\Users\Jordan\Documents\Nmit\DAT602\Workspace\DAT602-Activitys\DAT601-W4A1\TestingConnection\TestingConnection\obj\Debug\TestingConnection.csproj.CopyComplete
+C:\Users\Jordan\Documents\Nmit\DAT602\Workspace\DAT602-Activitys\DAT601-W4A1\TestingConnection\TestingConnection\obj\Debug\TestingConnection.exe
+C:\Users\Jordan\Documents\Nmit\DAT602\Workspace\DAT602-Activitys\DAT601-W4A1\TestingConnection\TestingConnection\obj\Debug\TestingConnection.pdb

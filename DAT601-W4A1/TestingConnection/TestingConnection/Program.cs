@@ -13,19 +13,36 @@ namespace TestingConnection
         static void Main(string[] args)
         {
             // GetDataUsingQuery();
-            
-            DataSet ds = AddUserName("toddles");
+            Console.WriteLine("Enter User Name");
+            string loginName = Console.ReadLine();
+
+            DataSet ds = Query(loginName, "AddUserName(@UserName)");
             foreach (DataRow aRow in ds.Tables[0].Rows)
             {
                 Console.WriteLine("Log in Status = " + aRow["Message"]);
             }
-            
 
-            Console.WriteLine();
+            Console.WriteLine("Press any key to continue");
             Console.ReadLine();
+
+            ds = Query(null, "GetAllPlayers()");
+            foreach (DataRow aRow in ds.Tables[0].Rows)
+            {
+                Console.WriteLine("List of Users:");
+                Console.WriteLine(aRow["UserName"]);
+            }
+
+            Console.WriteLine("Press any key to Quit");
+            Console.ReadLine();
+
+            ds = Query(loginName, "PlayerQuit(@UserName)");
+            foreach (DataRow aRow in ds.Tables[0].Rows)
+            {
+                Console.WriteLine(loginName + aRow["Message"]);
+            }
         }
 
-        private static DataSet AddUserName(string pUserName)
+        private static DataSet Query(string pUserName, string command)
         {
             String connectionString = "Server=localhost;Port=3306;Database=sapodb;Uid=sapo;password=53211;";
             MySqlConnection mySqlConnection = new MySqlConnection(connectionString);
@@ -35,13 +52,13 @@ namespace TestingConnection
             p.Add(aP);
 
 
-            var aDataSet = MySqlHelper.ExecuteDataset(mySqlConnection, "AddUserName(@UserName)", p.ToArray());
+            var aDataSet = MySqlHelper.ExecuteDataset(mySqlConnection, command, p.ToArray());
 
 
             return aDataSet;
         }
-    
 
-       
+
+
     }
 }
